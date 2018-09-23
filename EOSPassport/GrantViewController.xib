@@ -20,16 +20,97 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnV-PS-jio">
-                    <rect key="frame" x="105" y="174" width="43" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RIS-G0-sih">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCx-qy-PRX">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tvbox" translatesAutoresizingMaskIntoConstraints="NO" id="v6T-oL-q0T">
+                                    <rect key="frame" x="157.5" y="100" width="60" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="4NR-nX-oHf"/>
+                                        <constraint firstAttribute="width" constant="60" id="TeM-ez-qI5"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TVBox requests access to your personal data." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbH-7j-hCu">
+                                    <rect key="frame" x="30" y="180" width="315" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" red="0.42745098040000001" green="0.42745098040000001" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="PbH-7j-hCu" firstAttribute="leading" secondItem="wCx-qy-PRX" secondAttribute="leading" constant="30" id="QxM-9m-Xf0"/>
+                                <constraint firstItem="PbH-7j-hCu" firstAttribute="top" secondItem="v6T-oL-q0T" secondAttribute="bottom" constant="20" id="RbO-Wa-4Gf"/>
+                                <constraint firstAttribute="height" constant="400" id="omp-gu-ySb"/>
+                                <constraint firstAttribute="trailing" secondItem="PbH-7j-hCu" secondAttribute="trailing" constant="30" id="qAo-G9-oxn"/>
+                                <constraint firstItem="v6T-oL-q0T" firstAttribute="centerX" secondItem="wCx-qy-PRX" secondAttribute="centerX" id="ql2-Os-5UU"/>
+                                <constraint firstItem="v6T-oL-q0T" firstAttribute="top" secondItem="wCx-qy-PRX" secondAttribute="top" constant="100" id="wdj-A1-VdU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wCx-qy-PRX" secondAttribute="trailing" id="5Gt-Xm-nom"/>
+                        <constraint firstItem="wCx-qy-PRX" firstAttribute="top" secondItem="RIS-G0-sih" secondAttribute="top" id="qfw-Of-sL5"/>
+                        <constraint firstItem="wCx-qy-PRX" firstAttribute="leading" secondItem="RIS-G0-sih" secondAttribute="leading" id="rGy-SY-peh"/>
+                        <constraint firstAttribute="bottom" secondItem="wCx-qy-PRX" secondAttribute="bottom" id="ysd-kP-bWW"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8sO-xw-lzl">
+                    <rect key="frame" x="0.0" y="595" width="375" height="72"/>
+                    <subviews>
+                        <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcv-6g-fLp">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdf-4H-heM" customClass="AuthButton" customModule="EOSPassport" customModuleProvider="target">
+                            <rect key="frame" x="12" y="12" width="351" height="48"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <state key="normal" title="Authorize">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="authTouchUpInside:" destination="-1" eventType="touchUpInside" id="Eky-9P-mjo"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fdf-4H-heM" firstAttribute="top" secondItem="8sO-xw-lzl" secondAttribute="top" constant="12" id="0Gw-ve-Vg4"/>
+                        <constraint firstItem="fdf-4H-heM" firstAttribute="leading" secondItem="8sO-xw-lzl" secondAttribute="leading" constant="12" id="0VL-Yd-oIB"/>
+                        <constraint firstAttribute="trailing" secondItem="rcv-6g-fLp" secondAttribute="trailing" id="1DG-XP-MZS"/>
+                        <constraint firstAttribute="height" constant="72" id="1Ja-G4-7p7"/>
+                        <constraint firstItem="rcv-6g-fLp" firstAttribute="leading" secondItem="8sO-xw-lzl" secondAttribute="leading" id="4q1-DW-fe2"/>
+                        <constraint firstItem="rcv-6g-fLp" firstAttribute="top" secondItem="8sO-xw-lzl" secondAttribute="top" id="hfz-cz-aGY"/>
+                        <constraint firstAttribute="trailing" secondItem="fdf-4H-heM" secondAttribute="trailing" constant="12" id="w4S-1M-SlZ"/>
+                        <constraint firstAttribute="bottom" secondItem="fdf-4H-heM" secondAttribute="bottom" constant="12" id="wf4-Zs-7Hv"/>
+                    </constraints>
+                </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8sO-xw-lzl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7Nn-Dm-Y3D"/>
+                <constraint firstAttribute="trailing" secondItem="RIS-G0-sih" secondAttribute="trailing" id="Ct9-gH-jri"/>
+                <constraint firstAttribute="bottom" secondItem="RIS-G0-sih" secondAttribute="bottom" id="KDI-hH-6cF"/>
+                <constraint firstItem="eVC-IA-a1C" firstAttribute="bottom" secondItem="8sO-xw-lzl" secondAttribute="bottom" id="ROh-6x-oEr"/>
+                <constraint firstItem="wCx-qy-PRX" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Sd5-n5-DHd"/>
+                <constraint firstItem="RIS-G0-sih" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xog-8Q-cPo"/>
+                <constraint firstItem="RIS-G0-sih" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zgq-91-Rjt"/>
+                <constraint firstAttribute="bottom" secondItem="rcv-6g-fLp" secondAttribute="bottom" id="wPA-iZ-WHJ"/>
+                <constraint firstAttribute="trailing" secondItem="8sO-xw-lzl" secondAttribute="trailing" id="yXM-GI-ynr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eVC-IA-a1C"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
         </view>
     </objects>
+    <resources>
+        <image name="tvbox" width="60" height="60"/>
+    </resources>
 </document>

@@ -1,14 +1,14 @@
 //
-//  MainViewController.swift
+//  PhoneViewController.swift
 //  EOSPassport
 //
-//  Created by Vitaliy Berg on 23/09/2018.
+//  Created by Vitaly Berg on 23/09/2018.
 //  Copyright © 2018 Vitaly Berg. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class PhoneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

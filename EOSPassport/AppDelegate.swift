@@ -17,17 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = MainViewController()
+        //window?.rootViewController = MainViewController()
+        window?.rootViewController = UINavigationController(rootViewController: EnterViewController())
+        //window?.rootViewController = UINavigationController(rootViewController: PassportViewController())
+        //window?.rootViewController = UINavigationController(rootViewController: GrantViewController())
         return true
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        print(url)
-        print(options)
-    
         let grantVC = GrantViewController()
-        window?.rootViewController?.present(grantVC, animated: false)
-        
+        let grantNC = UINavigationController(rootViewController: grantVC)
+        window?.rootViewController?.present(grantNC, animated: false)
         return true
     }
 }

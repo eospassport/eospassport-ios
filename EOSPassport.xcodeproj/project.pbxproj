@@ -12,8 +12,49 @@
 		AD2B0C092157198E009BFF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C072157198E009BFF13 /* LaunchScreen.storyboard */; };
 		AD2B0C2921572307009BFF13 /* GrantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C2721572307009BFF13 /* GrantViewController.swift */; };
 		AD2B0C2A21572307009BFF13 /* GrantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C2821572307009BFF13 /* GrantViewController.xib */; };
-		AD2B0C2E2157235F009BFF13 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C2C2157235F009BFF13 /* MainViewController.swift */; };
-		AD2B0C2F2157235F009BFF13 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C2D2157235F009BFF13 /* MainViewController.xib */; };
+		AD2B0C6421573C79009BFF13 /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C3921573C79009BFF13 /* curve-specific.inc */; };
+		AD2B0C6521573C79009BFF13 /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C3B21573C79009BFF13 /* platform-specific.inc */; };
+		AD2B0C6621573C79009BFF13 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C3E21573C79009BFF13 /* ripemd160.c */; };
+		AD2B0C6721573C79009BFF13 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C3F21573C79009BFF13 /* uECC.c */; };
+		AD2B0C6821573C79009BFF13 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4021573C79009BFF13 /* base58.c */; };
+		AD2B0C6921573C79009BFF13 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4421573C79009BFF13 /* Crypto.swift */; };
+		AD2B0C6A21573C79009BFF13 /* TransactionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4721573C79009BFF13 /* TransactionUtil.swift */; };
+		AD2B0C6B21573C79009BFF13 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4821573C79009BFF13 /* Transaction.swift */; };
+		AD2B0C6C21573C79009BFF13 /* ResourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4A21573C79009BFF13 /* ResourceUtil.swift */; };
+		AD2B0C6D21573C79009BFF13 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4C21573C79009BFF13 /* Currency.swift */; };
+		AD2B0C6E21573C79009BFF13 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C4E21573C79009BFF13 /* Signature.swift */; };
+		AD2B0C6F21573C79009BFF13 /* ChainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5121573C79009BFF13 /* ChainRouter.swift */; };
+		AD2B0C7021573C79009BFF13 /* EOSRPC+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5221573C79009BFF13 /* EOSRPC+Chain.swift */; };
+		AD2B0C7121573C79009BFF13 /* EOSRPC+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5421573C79009BFF13 /* EOSRPC+History.swift */; };
+		AD2B0C7221573C79009BFF13 /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5521573C79009BFF13 /* HistoryRouter.swift */; };
+		AD2B0C7321573C79009BFF13 /* EOSRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5721573C79009BFF13 /* EOSRPC.swift */; };
+		AD2B0C7421573C79009BFF13 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5821573C79009BFF13 /* BaseRouter.swift */; };
+		AD2B0C7521573C79009BFF13 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5A21573C79009BFF13 /* KeyPair.swift */; };
+		AD2B0C7621573C79009BFF13 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5B21573C79009BFF13 /* PublicKey.swift */; };
+		AD2B0C7721573C79009BFF13 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5C21573C79009BFF13 /* PrivateKey.swift */; };
+		AD2B0C7821573C79009BFF13 /* ChainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5E21573C79009BFF13 /* ChainModels.swift */; };
+		AD2B0C7921573C79009BFF13 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C5F21573C79009BFF13 /* Error.swift */; };
+		AD2B0C7A21573C79009BFF13 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C6021573C79009BFF13 /* BigInt.swift */; };
+		AD2B0C7B21573C79009BFF13 /* SEWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C6321573C79009BFF13 /* SEWallet.swift */; };
+		AD2B0C8121573FBF009BFF13 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C7E21573FBF009BFF13 /* AnyDecodable.swift */; };
+		AD2B0C8221573FBF009BFF13 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C7F21573FBF009BFF13 /* AnyCodable.swift */; };
+		AD2B0C8321573FBF009BFF13 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C8021573FBF009BFF13 /* AnyEncodable.swift */; };
+		AD2B0C8821574D25009BFF13 /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C8621574D25009BFF13 /* EnterViewController.swift */; };
+		AD2B0C8921574D25009BFF13 /* EnterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C8721574D25009BFF13 /* EnterViewController.xib */; };
+		AD2B0C8D215752E7009BFF13 /* PassportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C8B215752E7009BFF13 /* PassportViewController.swift */; };
+		AD2B0C8E215752E7009BFF13 /* PassportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C8C215752E7009BFF13 /* PassportViewController.xib */; };
+		AD2B0C92215753F8009BFF13 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C90215753F8009BFF13 /* EmailViewController.swift */; };
+		AD2B0C93215753F8009BFF13 /* EmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C91215753F8009BFF13 /* EmailViewController.xib */; };
+		AD2B0C98215754C0009BFF13 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C96215754C0009BFF13 /* PhoneViewController.swift */; };
+		AD2B0C99215754C0009BFF13 /* PhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C97215754C0009BFF13 /* PhoneViewController.xib */; };
+		AD2B0C9D215754DF009BFF13 /* BirthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0C9B215754DF009BFF13 /* BirthViewController.swift */; };
+		AD2B0C9E215754DF009BFF13 /* BirthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0C9C215754DF009BFF13 /* BirthViewController.xib */; };
+		AD2B0CA221575520009BFF13 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0CA021575520009BFF13 /* PersonalViewController.swift */; };
+		AD2B0CA321575520009BFF13 /* PersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD2B0CA121575520009BFF13 /* PersonalViewController.xib */; };
+		AD2B0CA621575EAB009BFF13 /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0CA521575EAB009BFF13 /* DoneButton.swift */; };
+		AD2B0CAA215760FE009BFF13 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0CA9215760FE009BFF13 /* Image.swift */; };
+		AD2B0CAC2157618A009BFF13 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0CAB2157618A009BFF13 /* Color.swift */; };
+		AD2B0CAE21576E28009BFF13 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B0CAD21576E28009BFF13 /* AuthButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +65,56 @@
 		AD2B0C0A2157198E009BFF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD2B0C2721572307009BFF13 /* GrantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantViewController.swift; sourceTree = "<group>"; };
 		AD2B0C2821572307009BFF13 /* GrantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GrantViewController.xib; sourceTree = "<group>"; };
-		AD2B0C2C2157235F009BFF13 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AD2B0C2D2157235F009BFF13 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AD2B0C3421573C79009BFF13 /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		AD2B0C3521573C79009BFF13 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		AD2B0C3621573C79009BFF13 /* asm_arm.inc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm_arm.inc.h; sourceTree = "<group>"; };
+		AD2B0C3721573C79009BFF13 /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
+		AD2B0C3821573C79009BFF13 /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
+		AD2B0C3921573C79009BFF13 /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
+		AD2B0C3A21573C79009BFF13 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		AD2B0C3B21573C79009BFF13 /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
+		AD2B0C3C21573C79009BFF13 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		AD2B0C3E21573C79009BFF13 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		AD2B0C3F21573C79009BFF13 /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		AD2B0C4021573C79009BFF13 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		AD2B0C4421573C79009BFF13 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		AD2B0C4721573C79009BFF13 /* TransactionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUtil.swift; sourceTree = "<group>"; };
+		AD2B0C4821573C79009BFF13 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		AD2B0C4A21573C79009BFF13 /* ResourceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
+		AD2B0C4C21573C79009BFF13 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		AD2B0C4E21573C79009BFF13 /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		AD2B0C5121573C79009BFF13 /* ChainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainRouter.swift; sourceTree = "<group>"; };
+		AD2B0C5221573C79009BFF13 /* EOSRPC+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+Chain.swift"; sourceTree = "<group>"; };
+		AD2B0C5421573C79009BFF13 /* EOSRPC+History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+History.swift"; sourceTree = "<group>"; };
+		AD2B0C5521573C79009BFF13 /* HistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
+		AD2B0C5721573C79009BFF13 /* EOSRPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOSRPC.swift; sourceTree = "<group>"; };
+		AD2B0C5821573C79009BFF13 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		AD2B0C5A21573C79009BFF13 /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		AD2B0C5B21573C79009BFF13 /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		AD2B0C5C21573C79009BFF13 /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		AD2B0C5E21573C79009BFF13 /* ChainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainModels.swift; sourceTree = "<group>"; };
+		AD2B0C5F21573C79009BFF13 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		AD2B0C6021573C79009BFF13 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		AD2B0C6321573C79009BFF13 /* SEWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEWallet.swift; sourceTree = "<group>"; };
+		AD2B0C7E21573FBF009BFF13 /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		AD2B0C7F21573FBF009BFF13 /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		AD2B0C8021573FBF009BFF13 /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
+		AD2B0C8621574D25009BFF13 /* EnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		AD2B0C8721574D25009BFF13 /* EnterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterViewController.xib; sourceTree = "<group>"; };
+		AD2B0C8B215752E7009BFF13 /* PassportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportViewController.swift; sourceTree = "<group>"; };
+		AD2B0C8C215752E7009BFF13 /* PassportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassportViewController.xib; sourceTree = "<group>"; };
+		AD2B0C90215753F8009BFF13 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		AD2B0C91215753F8009BFF13 /* EmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailViewController.xib; sourceTree = "<group>"; };
+		AD2B0C96215754C0009BFF13 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		AD2B0C97215754C0009BFF13 /* PhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneViewController.xib; sourceTree = "<group>"; };
+		AD2B0C9B215754DF009BFF13 /* BirthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthViewController.swift; sourceTree = "<group>"; };
+		AD2B0C9C215754DF009BFF13 /* BirthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BirthViewController.xib; sourceTree = "<group>"; };
+		AD2B0CA021575520009BFF13 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		AD2B0CA121575520009BFF13 /* PersonalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalViewController.xib; sourceTree = "<group>"; };
+		AD2B0CA521575EAB009BFF13 /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
+		AD2B0CA9215760FE009BFF13 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AD2B0CAB2157618A009BFF13 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AD2B0CAD21576E28009BFF13 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +174,9 @@
 		AD2B0C25215722F2009BFF13 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AD2B0C26215722F8009BFF13 /* Grant */,
-				AD2B0C2B2157232E009BFF13 /* Main */,
+				AD2B0C3021573C79009BFF13 /* Vendors */,
+				AD2B0CA421575E9A009BFF13 /* Helpers */,
+				AD2B0C8421574787009BFF13 /* Views & Controllers */,
 				AD2B0BFE2157198D009BFF13 /* AppDelegate.swift */,
 			);
 			name = Sources;
@@ -95,19 +185,314 @@
 		AD2B0C26215722F8009BFF13 /* Grant */ = {
 			isa = PBXGroup;
 			children = (
+				AD2B0CAD21576E28009BFF13 /* AuthButton.swift */,
 				AD2B0C2721572307009BFF13 /* GrantViewController.swift */,
 				AD2B0C2821572307009BFF13 /* GrantViewController.xib */,
 			);
 			name = Grant;
 			sourceTree = "<group>";
 		};
-		AD2B0C2B2157232E009BFF13 /* Main */ = {
+		AD2B0C3021573C79009BFF13 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				AD2B0C2C2157235F009BFF13 /* MainViewController.swift */,
-				AD2B0C2D2157235F009BFF13 /* MainViewController.xib */,
+				AD2B0C3121573C79009BFF13 /* SwiftyEOS */,
 			);
-			name = Main;
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		AD2B0C3121573C79009BFF13 /* SwiftyEOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C7C21573FBF009BFF13 /* Dependencies */,
+				AD2B0C3221573C79009BFF13 /* Libraries */,
+				AD2B0C4121573C79009BFF13 /* Sources */,
+			);
+			path = SwiftyEOS;
+			sourceTree = "<group>";
+		};
+		AD2B0C3221573C79009BFF13 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C3321573C79009BFF13 /* include */,
+				AD2B0C3D21573C79009BFF13 /* src */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		AD2B0C3321573C79009BFF13 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C3421573C79009BFF13 /* uECC.h */,
+				AD2B0C3521573C79009BFF13 /* ripemd160.h */,
+				AD2B0C3621573C79009BFF13 /* asm_arm.inc.h */,
+				AD2B0C3721573C79009BFF13 /* uECC_vli.h */,
+				AD2B0C3821573C79009BFF13 /* libbase58.h */,
+				AD2B0C3921573C79009BFF13 /* curve-specific.inc */,
+				AD2B0C3A21573C79009BFF13 /* types.h */,
+				AD2B0C3B21573C79009BFF13 /* platform-specific.inc */,
+				AD2B0C3C21573C79009BFF13 /* Bridging-Header.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AD2B0C3D21573C79009BFF13 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C3E21573C79009BFF13 /* ripemd160.c */,
+				AD2B0C3F21573C79009BFF13 /* uECC.c */,
+				AD2B0C4021573C79009BFF13 /* base58.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AD2B0C4121573C79009BFF13 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4221573C79009BFF13 /* SwiftyEOS */,
+				AD2B0C6121573C79009BFF13 /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AD2B0C4221573C79009BFF13 /* SwiftyEOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4321573C79009BFF13 /* Crypto */,
+				AD2B0C4521573C79009BFF13 /* Contract */,
+				AD2B0C4D21573C79009BFF13 /* Signature */,
+				AD2B0C4F21573C79009BFF13 /* Network */,
+				AD2B0C5921573C79009BFF13 /* Key */,
+				AD2B0C5D21573C79009BFF13 /* Models */,
+			);
+			path = SwiftyEOS;
+			sourceTree = "<group>";
+		};
+		AD2B0C4321573C79009BFF13 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4421573C79009BFF13 /* Crypto.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		AD2B0C4521573C79009BFF13 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4621573C79009BFF13 /* transaction */,
+				AD2B0C4921573C79009BFF13 /* resource */,
+				AD2B0C4B21573C79009BFF13 /* currency */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		AD2B0C4621573C79009BFF13 /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4721573C79009BFF13 /* TransactionUtil.swift */,
+				AD2B0C4821573C79009BFF13 /* Transaction.swift */,
+			);
+			path = transaction;
+			sourceTree = "<group>";
+		};
+		AD2B0C4921573C79009BFF13 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4A21573C79009BFF13 /* ResourceUtil.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		AD2B0C4B21573C79009BFF13 /* currency */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4C21573C79009BFF13 /* Currency.swift */,
+			);
+			path = currency;
+			sourceTree = "<group>";
+		};
+		AD2B0C4D21573C79009BFF13 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C4E21573C79009BFF13 /* Signature.swift */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		AD2B0C4F21573C79009BFF13 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5021573C79009BFF13 /* Chain */,
+				AD2B0C5321573C79009BFF13 /* History */,
+				AD2B0C5621573C79009BFF13 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AD2B0C5021573C79009BFF13 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5121573C79009BFF13 /* ChainRouter.swift */,
+				AD2B0C5221573C79009BFF13 /* EOSRPC+Chain.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		AD2B0C5321573C79009BFF13 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5421573C79009BFF13 /* EOSRPC+History.swift */,
+				AD2B0C5521573C79009BFF13 /* HistoryRouter.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AD2B0C5621573C79009BFF13 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5721573C79009BFF13 /* EOSRPC.swift */,
+				AD2B0C5821573C79009BFF13 /* BaseRouter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AD2B0C5921573C79009BFF13 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5A21573C79009BFF13 /* KeyPair.swift */,
+				AD2B0C5B21573C79009BFF13 /* PublicKey.swift */,
+				AD2B0C5C21573C79009BFF13 /* PrivateKey.swift */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		AD2B0C5D21573C79009BFF13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C5E21573C79009BFF13 /* ChainModels.swift */,
+				AD2B0C5F21573C79009BFF13 /* Error.swift */,
+				AD2B0C6021573C79009BFF13 /* BigInt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD2B0C6121573C79009BFF13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C6221573C79009BFF13 /* iOS */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AD2B0C6221573C79009BFF13 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C6321573C79009BFF13 /* SEWallet.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AD2B0C7C21573FBF009BFF13 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C7D21573FBF009BFF13 /* AnyCodable */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		AD2B0C7D21573FBF009BFF13 /* AnyCodable */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C7E21573FBF009BFF13 /* AnyDecodable.swift */,
+				AD2B0C7F21573FBF009BFF13 /* AnyCodable.swift */,
+				AD2B0C8021573FBF009BFF13 /* AnyEncodable.swift */,
+			);
+			path = AnyCodable;
+			sourceTree = "<group>";
+		};
+		AD2B0C8421574787009BFF13 /* Views & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C8521574D13009BFF13 /* Enter */,
+				AD2B0C8F215753EC009BFF13 /* Records */,
+				AD2B0C8A215752D7009BFF13 /* Passport */,
+				AD2B0C26215722F8009BFF13 /* Grant */,
+			);
+			name = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		AD2B0C8521574D13009BFF13 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0CA521575EAB009BFF13 /* DoneButton.swift */,
+				AD2B0C8621574D25009BFF13 /* EnterViewController.swift */,
+				AD2B0C8721574D25009BFF13 /* EnterViewController.xib */,
+			);
+			name = Enter;
+			sourceTree = "<group>";
+		};
+		AD2B0C8A215752D7009BFF13 /* Passport */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C8B215752E7009BFF13 /* PassportViewController.swift */,
+				AD2B0C8C215752E7009BFF13 /* PassportViewController.xib */,
+			);
+			name = Passport;
+			sourceTree = "<group>";
+		};
+		AD2B0C8F215753EC009BFF13 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C9F2157550E009BFF13 /* Personal */,
+				AD2B0C9A215754C6009BFF13 /* Birth */,
+				AD2B0C9521575401009BFF13 /* Phone */,
+				AD2B0C94215753FD009BFF13 /* Email */,
+			);
+			name = Records;
+			sourceTree = "<group>";
+		};
+		AD2B0C94215753FD009BFF13 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C90215753F8009BFF13 /* EmailViewController.swift */,
+				AD2B0C91215753F8009BFF13 /* EmailViewController.xib */,
+			);
+			name = Email;
+			sourceTree = "<group>";
+		};
+		AD2B0C9521575401009BFF13 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C96215754C0009BFF13 /* PhoneViewController.swift */,
+				AD2B0C97215754C0009BFF13 /* PhoneViewController.xib */,
+			);
+			name = Phone;
+			sourceTree = "<group>";
+		};
+		AD2B0C9A215754C6009BFF13 /* Birth */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0C9B215754DF009BFF13 /* BirthViewController.swift */,
+				AD2B0C9C215754DF009BFF13 /* BirthViewController.xib */,
+			);
+			name = Birth;
+			sourceTree = "<group>";
+		};
+		AD2B0C9F2157550E009BFF13 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0CA021575520009BFF13 /* PersonalViewController.swift */,
+				AD2B0CA121575520009BFF13 /* PersonalViewController.xib */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		AD2B0CA421575E9A009BFF13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B0CA9215760FE009BFF13 /* Image.swift */,
+				AD2B0CAB2157618A009BFF13 /* Color.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +553,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2B0C8921574D25009BFF13 /* EnterViewController.xib in Resources */,
+				AD2B0C99215754C0009BFF13 /* PhoneViewController.xib in Resources */,
 				AD2B0C092157198E009BFF13 /* LaunchScreen.storyboard in Resources */,
 				AD2B0C062157198E009BFF13 /* Assets.xcassets in Resources */,
-				AD2B0C2F2157235F009BFF13 /* MainViewController.xib in Resources */,
+				AD2B0C93215753F8009BFF13 /* EmailViewController.xib in Resources */,
+				AD2B0C9E215754DF009BFF13 /* BirthViewController.xib in Resources */,
+				AD2B0C8E215752E7009BFF13 /* PassportViewController.xib in Resources */,
+				AD2B0CA321575520009BFF13 /* PersonalViewController.xib in Resources */,
 				AD2B0C2A21572307009BFF13 /* GrantViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,9 +572,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2B0C6B21573C79009BFF13 /* Transaction.swift in Sources */,
+				AD2B0CAE21576E28009BFF13 /* AuthButton.swift in Sources */,
+				AD2B0C7221573C79009BFF13 /* HistoryRouter.swift in Sources */,
+				AD2B0C7B21573C79009BFF13 /* SEWallet.swift in Sources */,
+				AD2B0C6621573C79009BFF13 /* ripemd160.c in Sources */,
+				AD2B0C6E21573C79009BFF13 /* Signature.swift in Sources */,
+				AD2B0C7621573C79009BFF13 /* PublicKey.swift in Sources */,
+				AD2B0CA221575520009BFF13 /* PersonalViewController.swift in Sources */,
+				AD2B0C6821573C79009BFF13 /* base58.c in Sources */,
+				AD2B0C6F21573C79009BFF13 /* ChainRouter.swift in Sources */,
+				AD2B0C8821574D25009BFF13 /* EnterViewController.swift in Sources */,
+				AD2B0C98215754C0009BFF13 /* PhoneViewController.swift in Sources */,
+				AD2B0CAC2157618A009BFF13 /* Color.swift in Sources */,
+				AD2B0C8221573FBF009BFF13 /* AnyCodable.swift in Sources */,
+				AD2B0C6A21573C79009BFF13 /* TransactionUtil.swift in Sources */,
+				AD2B0C7421573C79009BFF13 /* BaseRouter.swift in Sources */,
+				AD2B0C6521573C79009BFF13 /* platform-specific.inc in Sources */,
+				AD2B0C7721573C79009BFF13 /* PrivateKey.swift in Sources */,
+				AD2B0C8121573FBF009BFF13 /* AnyDecodable.swift in Sources */,
+				AD2B0C7821573C79009BFF13 /* ChainModels.swift in Sources */,
+				AD2B0C7521573C79009BFF13 /* KeyPair.swift in Sources */,
+				AD2B0C8321573FBF009BFF13 /* AnyEncodable.swift in Sources */,
+				AD2B0C8D215752E7009BFF13 /* PassportViewController.swift in Sources */,
+				AD2B0C7121573C79009BFF13 /* EOSRPC+History.swift in Sources */,
+				AD2B0C7021573C79009BFF13 /* EOSRPC+Chain.swift in Sources */,
+				AD2B0C6921573C79009BFF13 /* Crypto.swift in Sources */,
 				AD2B0C2921572307009BFF13 /* GrantViewController.swift in Sources */,
+				AD2B0C9D215754DF009BFF13 /* BirthViewController.swift in Sources */,
+				AD2B0C7321573C79009BFF13 /* EOSRPC.swift in Sources */,
+				AD2B0C6C21573C79009BFF13 /* ResourceUtil.swift in Sources */,
+				AD2B0C6D21573C79009BFF13 /* Currency.swift in Sources */,
+				AD2B0CA621575EAB009BFF13 /* DoneButton.swift in Sources */,
+				AD2B0C6721573C79009BFF13 /* uECC.c in Sources */,
+				AD2B0CAA215760FE009BFF13 /* Image.swift in Sources */,
 				AD2B0BFF2157198D009BFF13 /* AppDelegate.swift in Sources */,
-				AD2B0C2E2157235F009BFF13 /* MainViewController.swift in Sources */,
+				AD2B0C7A21573C79009BFF13 /* BigInt.swift in Sources */,
+				AD2B0C6421573C79009BFF13 /* curve-specific.inc in Sources */,
+				AD2B0C7921573C79009BFF13 /* Error.swift in Sources */,
+				AD2B0C92215753F8009BFF13 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +750,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8BYXEZ6KH;
+				HEADER_SEARCH_PATHS = "$(PROJECT_NAME)/Vendors/SwiftyEOS/Libraries/include";
 				INFOPLIST_FILE = EOSPassport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,6 +758,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sexy.bergusman.EOSPassport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Vendors/SwiftyEOS/Libraries/include/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -342,6 +770,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P8BYXEZ6KH;
+				HEADER_SEARCH_PATHS = "$(PROJECT_NAME)/Vendors/SwiftyEOS/Libraries/include";
 				INFOPLIST_FILE = EOSPassport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,6 +778,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sexy.bergusman.EOSPassport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Vendors/SwiftyEOS/Libraries/include/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
